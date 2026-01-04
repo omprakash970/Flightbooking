@@ -146,3 +146,16 @@ console.log(arr);
 const numbers1 = [1,2,3,4,5];
 numbers1.reverse();
 console.log(numbers1);
+const webTechs=[
+    "html", 
+    "css",
+    "js",
+    "react",
+    "node",
+    "mongodb"
+
+]
+webTechs.sort();
+console.log(webTechs);
+webTechs.reverse();
+console.log(webTechs);
