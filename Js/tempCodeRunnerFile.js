@@ -1,0 +1,14 @@
+// let js = 'Javascript'; 
+// // const charsInJs=js.split('');
+// // console.log(charsInJs);
+// // let companiesString='Faceboook, Google, Microsoft, Apple, IBM, Oracle, Amazon'; 
+// // const companies=companiesString.split(', ');
+// // console.log(companies);
+// // let txt="I love teaching and empowering people, I tech HTML, CSS, JS, React, Python.";
+// // const words = txt.split(' ');
+// // console.log(words);
+// const fruits=['banana', 'oragne', 'mango', 'lemon'];
+// let firstFruit=fruits[0];   
+// console.log(firstFruit);
+// secondFruit=fruits[1];
+// console.log(secondFruit);
