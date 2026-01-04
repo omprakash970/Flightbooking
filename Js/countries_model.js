@@ -135,7 +135,14 @@ const numbers = [1,2,3,4,5];
 // console.log(numbers.slice(0));
 // // console.log(numbers.slice(0,3));
 // // console.log(numbers.slice(0,2));
-// console.log(numbers.splice());
-// console.log(numbers.splice(0, 1));
-numbers.splice(2, 3, 6, 7, 8, 9, 10);
-console.log(numbers);
+// // console.log(numbers.splice());
+// // console.log(numbers.splice(0, 1));
+// numbers.splice(2, 3, 6, 7, 8, 9, 10);
+// console.log(numbers);
+const arr = ['item1', 'item2', 'item3', 'new Item'];
+arr.push('last Item');
+console.log(arr);
+//shift means remove from the beginning and pop means remove from the end, and push means add to the end and unshift means add to the beginning
+const numbers1 = [1,2,3,4,5];
+numbers1.reverse();
+console.log(numbers1);
