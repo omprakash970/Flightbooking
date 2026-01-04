@@ -345,7 +345,7 @@ console.log(webTechs[webTechs.length-1]);
 
 
 
-
+const arr=[];
 const countries=[
     'Albania',
     'Bolivia',
@@ -362,6 +362,8 @@ const countries=[
     'Morocco',
     'Nigeria',
     'Oman',
-    'Pale'
+    'Pales'
+    
+
     
 ]
