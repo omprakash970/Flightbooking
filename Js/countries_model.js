@@ -76,33 +76,49 @@
 // // const combinedList=firstList.concat(secondList);
 // // console.log(combinedList);
 // // const fruits=['banana', 'orange', 'mango', 'lemon'];
-// // const vegetables=['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'];
-// // const fruitsandVeggies=fruits.concat(vegetables);
-// // console.log(fruitsandVeggies);
-// // const numbers = [1, 2, 3, 4, 5];
-// // console.log(numbers.length); 
-// // const numbers1=[6,7,8,9,10];
-// // console.log(numbers1.indexOf(3));
-// // console.log(numbers1.indexOf(0));
-// // console.log(numbers1.indexOf(10));
-// // console.log(numbers1.indexOf(6));
-// // //check item in a list 
-// // const fruits1=['banana', 'orange', 'mango', 'lemon'];
-// // let index=fruits1.indexOf('banana');
-// // if(index!=-1){
-// //     console.log('This fruit does exist in the list');
-// // }else{
-// //     console.log('This fruit does not exist in the list');
-// // }
-// // index!=-1?console.log('This fruit does exist in the list'):console.log('This fruit does not exist in the list');
+// // // const vegetables=['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot'];
+// // // const fruitsandVeggies=fruits.concat(vegetables);
+// // // console.log(fruitsandVeggies);
+// // // const numbers = [1, 2, 3, 4, 5];
+// // // console.log(numbers.length); 
+// // // const numbers1=[6,7,8,9,10];
+// // // console.log(numbers1.indexOf(3));
+// // // console.log(numbers1.indexOf(0));
+// // // console.log(numbers1.indexOf(10));
+// // // console.log(numbers1.indexOf(6));
+// // // //check item in a list 
+// // // const fruits1=['banana', 'orange', 'mango', 'lemon'];
+// // // let index=fruits1.indexOf('banana');
+// // // if(index!=-1){
+// // //     console.log('This fruit does exist in the list');
+// // // }else{
+// // //     console.log('This fruit does not exist in the list');
+// // // }
+// // // index!=-1?console.log('This fruit does exist in the list'):console.log('This fruit does not exist in the list');
 
-// // let indexOfAvocado=fruits1.indexOf('avocado');
-// // indexOfAvocado!=-1?console.log('This fruit does exist in the list'):console.log('This fruit does not exist in the list');
-// // const numbers=[1,2,3,4,5,6,7,8,9,10];
-// // console.log(numbers.includes(5));
-// // console.log(numbers.includes(0));
-// // console.log(numbers.includes(10));
-// // console.log(numbers.includes(1));
+// // // let indexOfAvocado=fruits1.indexOf('avocado');
+// // // indexOfAvocado!=-1?console.log('This fruit does exist in the list'):console.log('This fruit does not exist in the list');
+// // // const numbers=[1,2,3,4,5,6,7,8,9,10];
+// // // console.log(numbers.includes(5));
+// // // console.log(numbers.includes(0));
+// // // console.log(numbers.includes(10));
+// // // console.log(numbers.includes(1));
+// // // const webTechs=[
+// // //     'HTML',
+// // //     'CSS',
+// // //     'JavaScript',
+// // //     'React',
+// // //     'Redux',
+// // //     'Node',
+// // //     'MongoDB'
+// // // ]
+// // // console.log(webTechs.includes('Node'));
+// // // console.log(webTechs.includes('C++'));
+// // // console.log
+
+// // const numbers=[1,2,3,4,5];
+// // console.log(numbers.toString());
+// // console.log(numbers.join());
 // // const webTechs=[
 // //     'HTML',
 // //     'CSS',
@@ -110,52 +126,44 @@
 // //     'React',
 // //     'Redux',
 // //     'Node',
-// //     'MongoDB'
-// // ]
-// // console.log(webTechs.includes('Node'));
-// // console.log(webTechs.includes('C++'));
-// // console.log
-
-// const numbers=[1,2,3,4,5];
-// console.log(numbers.toString());
-// console.log(numbers.join());
-// const webTechs=[
-//     'HTML',
-//     'CSS',
-//     'JavaScript',
-//     'React',
-//     'Redux',
-//     'Node',
     
+// // ]
+// // console.log(webTechs.join(" # "));
+// const numbers = [1,2,3,4,5];
+
+// // console.log(numbers.slice());
+// // console.log(numbers.slice(0));
+// // // console.log(numbers.slice(0,3));
+// // // console.log(numbers.slice(0,2));
+// // // console.log(numbers.splice());
+// // // console.log(numbers.splice(0, 1));
+// // numbers.splice(2, 3, 6, 7, 8, 9, 10);
+// // console.log(numbers);
+// const arr = ['item1', 'item2', 'item3', 'new Item'];
+// arr.push('last Item');
+// console.log(arr);
+// //shift means remove from the beginning and pop means remove from the end, and push means add to the end and unshift means add to the beginning
+// const numbers1 = [1,2,3,4,5];
+// numbers1.reverse();
+// console.log(numbers1);
+// const webTechs=[
+//     "html", 
+//     "css",
+//     "js",
+//     "react",
+//     "node",
+//     "mongodb"
+
 // ]
-// console.log(webTechs.join(" # "));
-const numbers = [1,2,3,4,5];
-
-// console.log(numbers.slice());
-// console.log(numbers.slice(0));
-// // console.log(numbers.slice(0,3));
-// // console.log(numbers.slice(0,2));
-// // console.log(numbers.splice());
-// // console.log(numbers.splice(0, 1));
-// numbers.splice(2, 3, 6, 7, 8, 9, 10);
-// console.log(numbers);
-const arr = ['item1', 'item2', 'item3', 'new Item'];
-arr.push('last Item');
-console.log(arr);
-//shift means remove from the beginning and pop means remove from the end, and push means add to the end and unshift means add to the beginning
-const numbers1 = [1,2,3,4,5];
-numbers1.reverse();
-console.log(numbers1);
-const webTechs=[
-    "html", 
-    "css",
-    "js",
-    "react",
-    "node",
-    "mongodb"
-
-]
-webTechs.sort();
-console.log(webTechs);
-webTechs.reverse();
-console.log(webTechs);
+// webTechs.sort();
+// console.log(webTechs);
+// webTechs.reverse();
+// console.log(webTechs);
+const firstNums=[1,2,3]; 
+const secondNums=[4,5,6];
+const ArrayofArrays=[firstNums, secondNums];
+console.log(ArrayofArrays[0]);
+const frontend=['html', 'css', 'js', 'react'];
+const backend=['node', 'express', 'mongodb'];
+const fullstack=[frontend, backend];
+console.log(fullstack[0]);
