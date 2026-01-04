@@ -131,7 +131,11 @@
 // console.log(webTechs.join(" # "));
 const numbers = [1,2,3,4,5];
 
-console.log(numbers.slice());
-console.log(numbers.slice(0));
-console.log(numbers.slice(0,3));
-console.log(numbers.slice(2));
+// console.log(numbers.slice());
+// console.log(numbers.slice(0));
+// // console.log(numbers.slice(0,3));
+// // console.log(numbers.slice(0,2));
+// console.log(numbers.splice());
+// console.log(numbers.splice(0, 1));
+numbers.splice(2, 3, 6, 7, 8, 9, 10);
+console.log(numbers);
